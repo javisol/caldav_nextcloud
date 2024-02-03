@@ -4,7 +4,6 @@ import caldav
 from datetime import datetime, timedelta
 import locale
 
-
 def print_events(calendar):
     for event in calendar.events():
         ical_text = event.data
